@@ -1,0 +1,15 @@
+{
+  "provider": "REEMPLAZAR_CON_PROVEEDOR",
+  "country": "CL",
+  "apiBaseUrl": "https://api.proveedor.example/v1",
+  "catalogSync": {
+    "enabled": false,
+    "frequency": "daily",
+    "source": "catalog/products.csv"
+  },
+  "fulfillment": {
+    "enabled": false,
+    "webhookUrl": "https://tu-dominio.example/api/orders"
+  }
+}
+
